@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
           <div>
             <div className="flex items-center space-x-2 mb-6">
               <div className="w-8 h-8 bg-orange-600 rounded flex items-center justify-center text-white font-bold text-lg">V</div>
-              <span className="text-xl font-serif font-bold text-white">Vedic Expert</span>
+              <span className="text-xl font-serif font-bold text-white">Vedic Expert PU College Shivamogga</span>
             </div>
             <p className="text-sm leading-relaxed">
               Empowering the next generation of engineers and doctors with the speed of Vedic mathematics and the precision of modern science.
