@@ -59,7 +59,7 @@ export const COURSES: Course[] = [
     ],
     duration: '300 Hours of Intensive Learning',
     image: 'https://images.unsplash.com/photo-1519337265831-281ec6cc8514?auto=format&fit=crop&q=80&w=800',
-    batches: ['April 05, 2025', 'May 10, 2025', 'June 20, 2025'],
+    batches: ['April 05, 2026', 'May 10, 2026', 'June 20, 2026'],
     eligibility: [
       'Grade 9 students aiming for JEE/NEET',
       'Minimum 80% in previous grade Math/Science'
@@ -87,7 +87,7 @@ export const COURSES: Course[] = [
     ],
     duration: '350 Hours Comprehensive Program',
     image: 'https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&q=80&w=800',
-    batches: ['March 15, 2025', 'April 12, 2025', 'June 01, 2025'],
+    batches: ['March 15, 2026', 'April 12, 2026', 'June 01, 2026'],
     eligibility: [
       'Grade 10 students aiming for Tier-1 Institutes',
       'Consistent academic performance in 9th grade'
