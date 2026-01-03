@@ -7,7 +7,7 @@ import Features from './components/Features';
 import Courses from './components/Courses';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import AICounselor from './components/AICounselor';
+
 import CourseDetailsPage from './components/CourseDetailsPage';
 import { COURSES } from './constants';
 
@@ -61,7 +61,6 @@ const App: React.FC = () => {
         )
       )}
 
-      <AICounselor />
       <Footer />
     </div>
   );
