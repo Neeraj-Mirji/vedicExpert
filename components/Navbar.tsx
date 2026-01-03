@@ -23,7 +23,7 @@ const Navbar: React.FC<NavbarProps> = ({ onNavigateHome }) => {
       <div className="container mx-auto px-6 flex justify-between items-center">
         <button onClick={onNavigateHome} className="flex items-center space-x-2 outline-none">
           <div className="w-10 h-10 bg-orange-600 rounded-lg flex items-center justify-center text-white font-bold text-xl">V</div>
-          <span className={`text-2xl font-serif font-bold text-slate-900`}>Vedic Expert</span>
+          <span className={`text-2xl font-serif font-bold text-slate-900`}>Neeraj</span>
         </button>
 
         {/* Desktop Menu */}
