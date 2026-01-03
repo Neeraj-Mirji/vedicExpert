@@ -26,7 +26,7 @@ export const COURSES: Course[] = [
     ],
     duration: '250 Hours of Expert Instruction',
     image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=800',
-    batches: ['March 26, 2025 onwards', 'April 16, 2025 onwards', 'June 11, 2025 onwards'],
+    batches: ['March 26, 2026 onwards', 'April 16, 2026 onwards', 'June 11, 2026 onwards'],
     eligibility: [
       'Grade 8 students with a passion for STEM subjects',
       'Students who have scored 75% or above in Mathematics and Science in their Board Exams'

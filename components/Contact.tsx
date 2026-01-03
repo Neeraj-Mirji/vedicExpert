@@ -41,7 +41,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-slate-900">Our Campus</h4>
-                  <p className="text-slate-500">Vedic Tower, Tech Square, Bengaluru, KA 560001</p>
+                  <p className="text-slate-500">Vedic Experts PU College, Kote Road, KR Puram, Shivamogga-577201.</p>
                 </div>
               </div>
               
@@ -65,7 +65,8 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-slate-900">Call Us</h4>
-                  <p className="text-slate-500">+91 98765 43210 (Mon-Sat, 9AM-7PM)</p>
+                  <p className="text-slate-500">+91 90360 54066</p>
+                  <p className="text-slate-500">+91 90360 54067</p>
                 </div>
               </div>
             </div>
