@@ -1,0 +1,9 @@
+
+{
+  "name": "Vedic Expert - JEE/NEET Foundations",
+  "description": "A premium educational platform offering JEE and NEET foundational courses for 8th, 9th, and 10th grade students, featuring AI-powered academic counseling.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
