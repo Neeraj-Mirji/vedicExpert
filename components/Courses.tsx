@@ -33,7 +33,16 @@ const Courses: React.FC<CoursesProps> = ({ onSelectCourse }) => {
                 </div>
               </div>
               <div className="p-8">
-                <h4 className="text-2xl font-bold text-slate-900 mb-3">{course.title}</h4>
+                <h4 className="text-2xl font-bold text-slate-900 mb-3">
+                  {course.title.startsWith('Vedic ') ? (
+                    <>
+                      <span className="text-orange-600">Vedic</span>
+                      {course.title.substring(5)}
+                    </>
+                  ) : (
+                    course.title
+                  )}
+                </h4>
                 <p className="text-slate-600 mb-6 line-clamp-2">{course.description}</p>
                 <div className="flex flex-wrap gap-2 mb-6">
                   {course.subjects.slice(0, 3).map((sub, i) => (
