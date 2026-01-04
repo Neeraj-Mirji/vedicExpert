@@ -13,7 +13,7 @@ export const COURSES: Course[] = [
   {
     id: '8-foundation',
     grade: 'Grade 8',
-    title: 'Pinnacle Foundation',
+    title: 'Aarambha',
     description: 'Empowering Young Minds for the Future through critical thinking and innovation.',
     detailedDescription: 'At Vedic Expert, we believe that early exposure to STEM (Science, Technology, Engineering, and Mathematics) fosters critical thinking, problem-solving, and innovation. Our Foundation Program is designed for academically driven Grade 8 students, providing them with a strong foundation in these subjects through hands-on learning and expert mentorship.',
     subjects: ['Advanced Mathematics', 'Conceptual Physics', 'Foundational Chemistry', 'Biological Sciences'],
@@ -47,7 +47,7 @@ export const COURSES: Course[] = [
   {
     id: '9-foundation',
     grade: 'Grade 9',
-    title: 'Zenith JEE/NEET Prep',
+    title: 'Abhyasa',
     description: 'Building a rock-solid conceptual base for professional competitive exams.',
     detailedDescription: 'The Grade 9 program is a high-intensity bridge to professional careers in Medicine and Engineering. We transition students from general school science to specialized domains, emphasizing the logic behind formulas rather than memorization.',
     subjects: ['Calculus Introduction', 'Mechanics', 'Atomic Structure', 'Human Physiology'],
@@ -75,7 +75,7 @@ export const COURSES: Course[] = [
   {
     id: '10-foundation',
     grade: 'Grade 10',
-    title: 'Ultimate Cracker Series',
+    title: 'Abhiyana',
     description: 'The final foundational year aimed at mastering Boards and JEE/NEET basics simultaneously.',
     detailedDescription: 'Our Grade 10 series is a hybrid model that ensures top-tier performance in Board Exams while simultaneously preparing students for the rigors of 11th Grade competitive streams. It is the definitive program for high-achievers.',
     subjects: ['Board Mastery', 'JEE Physics', 'Organic Chemistry', 'Advanced Biology'],

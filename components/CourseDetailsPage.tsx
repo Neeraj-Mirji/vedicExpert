@@ -30,7 +30,12 @@ const CourseDetailsPage: React.FC<CourseDetailsPageProps> = ({ course, onBack })
             <span className="font-serif font-bold text-slate-900">Vedic Expert</span>
           </div>
 
-          <a href="#contact-footer" className="bg-orange-600 text-white px-6 py-2 rounded-full font-bold text-sm hover:bg-orange-700 shadow-lg shadow-orange-100 transition-all">
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdpmnzDAzC_NhfJL01zUtDDFzI3bLOZSb1_rMv3ymya-zu7Ww/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-orange-600 text-white px-6 py-2 rounded-full font-bold text-sm hover:bg-orange-700 shadow-lg shadow-orange-100 transition-all"
+          >
             Enroll for {course.grade}
           </a>
         </div>
@@ -143,9 +148,14 @@ const CourseDetailsPage: React.FC<CourseDetailsPageProps> = ({ course, onBack })
                   <div className="p-10 bg-slate-900 text-white rounded-[2.5rem]">
                     <h4 className="text-2xl font-bold mb-4">Register Interest</h4>
                     <p className="text-slate-400 mb-8">Seats are limited to 25 per batch to ensure personalized attention.</p>
-                    <button className="w-full bg-white text-slate-900 py-4 rounded-2xl font-bold hover:bg-orange-500 hover:text-white transition-all">
+                    <a
+                      href="https://docs.google.com/forms/d/e/1FAIpQLSdpmnzDAzC_NhfJL01zUtDDFzI3bLOZSb1_rMv3ymya-zu7Ww/viewform"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block text-center w-full bg-white text-slate-900 py-4 rounded-2xl font-bold hover:bg-orange-500 hover:text-white transition-all"
+                    >
                       Check Seat Availability
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -211,9 +221,14 @@ const CourseDetailsPage: React.FC<CourseDetailsPageProps> = ({ course, onBack })
                            <p className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">Seats Remaining</p>
                            <p className="text-lg font-bold text-slate-900">{15 + (i * 2)} Slots</p>
                          </div>
-                         <button className="bg-slate-900 text-white px-8 py-4 rounded-2xl font-bold hover:bg-orange-600 transition-all">
+                         <a
+                           href="https://docs.google.com/forms/d/e/1FAIpQLSdpmnzDAzC_NhfJL01zUtDDFzI3bLOZSb1_rMv3ymya-zu7Ww/viewform"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           className="bg-slate-900 text-white px-8 py-4 rounded-2xl font-bold hover:bg-orange-600 transition-all"
+                         >
                            Select Batch
-                         </button>
+                         </a>
                       </div>
                     </div>
                   ))}
@@ -238,9 +253,14 @@ const CourseDetailsPage: React.FC<CourseDetailsPageProps> = ({ course, onBack })
               Don't miss this opportunity to build a strong STEM foundation. Limited seats available for the {course.grade} program.
             </p>
             <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
-              <button className="px-12 py-5 bg-orange-600 rounded-2xl font-bold text-lg hover:bg-orange-700 transition-all shadow-xl shadow-orange-900/20">
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdpmnzDAzC_NhfJL01zUtDDFzI3bLOZSb1_rMv3ymya-zu7Ww/viewform"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-12 py-5 bg-orange-600 rounded-2xl font-bold text-lg hover:bg-orange-700 transition-all shadow-xl shadow-orange-900/20"
+              >
                 Register for Foundation
-              </button>
+              </a>
               <button 
                 onClick={onBack}
                 className="px-12 py-5 bg-white/10 border border-white/20 rounded-2xl font-bold text-lg hover:bg-white/20 transition-all"

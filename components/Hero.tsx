@@ -1,5 +1,7 @@
 
 import React from 'react';
+import mainImage from '../images/mainImage.png';
+
 
 const Hero: React.FC = () => {
   return (
@@ -10,11 +12,11 @@ const Hero: React.FC = () => {
 
       <div className="container mx-auto px-6 flex flex-col lg:flex-row items-center">
         <div className="lg:w-1/2 text-center lg:text-left">
-          <span className="inline-block py-1 px-4 rounded-full bg-orange-100 text-orange-700 text-sm font-bold tracking-wider uppercase mb-6">
-            Foundation Excellence for 8th, 9th & 10th
+          <span className="inline-block py-1 px-4 rounded-full bg-orange-100 text-orange-700 text-base font-bold tracking-wider  mb-6">
+            Foundation Excellence for 8<sup>th</sup>, 9<sup>th</sup> & 10<sup>th</sup>
           </span>
           <h1 className="text-5xl md:text-7xl font-serif font-bold text-slate-900 leading-tight mb-8">
-            Master Competitive <span className="text-orange-600">Edges</span> Early.
+            Your Head Start to  <span className="text-orange-600">IIT & NEET</span>
           </h1>
           <p className="text-lg md:text-xl text-slate-600 mb-10 leading-relaxed max-w-2xl mx-auto lg:mx-0">
             At Vedic Expert, we combine modern STEM curriculum with ancient Vedic techniques to help young minds crack JEE and NEET with speed and precision.
@@ -52,7 +54,7 @@ const Hero: React.FC = () => {
         <div className="lg:w-1/2 mt-16 lg:mt-0 relative">
           <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl transition-all duration-500 group">
             <img 
-              src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=1200" 
+              src={mainImage} 
               alt="Happy Vedic Expert Students" 
               className="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700"
             />

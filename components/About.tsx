@@ -1,5 +1,7 @@
 
 import React from 'react';
+import boyBook from '../images/boyBook.jpg';
+import boyTable from '../images/boyTable.jpg';
 
 const About: React.FC = () => {
   return (
@@ -9,12 +11,12 @@ const About: React.FC = () => {
           <div className="lg:w-1/2">
             <div className="grid grid-cols-2 gap-4">
               <img 
-                src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?auto=format&fit=crop&q=80&w=800" 
+                src={boyBook} 
                 className="rounded-2xl shadow-lg w-full h-full object-cover aspect-[4/5]" 
                 alt="Focused Learning" 
               />
               <img 
-                src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=800" 
+                src={boyTable} 
                 className="rounded-2xl shadow-lg w-full h-full object-cover aspect-[4/5] mt-8" 
                 alt="Collaborative Study" 
               />
@@ -23,14 +25,17 @@ const About: React.FC = () => {
           
           <div className="lg:w-1/2">
             <h2 className="text-sm font-bold text-orange-600 tracking-widest uppercase mb-4">Our Heritage</h2>
-            <h3 className="text-4xl md:text-5xl font-serif font-bold text-slate-900 mb-8 leading-tight">
+            <h3 className="text-4xl md:text-5xl font-serif font-bold text-slate-900 mb-4 leading-tight">
               Where Ancient Wisdom Meets Modern Science.
             </h3>
+            <p className="text-lg font-semibold text-slate-700 mb-8">
+              In Academic Collaboration with <span className="font-bold text-orange-600">Bansal Classes, Kota</span>
+            </p>
             <p className="text-lg text-slate-600 mb-6 leading-relaxed">
-              Vedic Expert was founded with a singular mission: to simplify the most complex mathematical and scientific concepts using Vedic mental techniques. We believe that competitive preparation should start not just early, but correctly.
+              Vedic Expert, in academic collaboration with the pioneer brand Bansal Classes, Kota, is founded with a singular mission: to simplify complex concepts using Vedic mental techniques for JEE and NEET, shaping confident and successful individuals.
             </p>
             <p className="text-lg text-slate-600 mb-8 leading-relaxed">
-              Our 8th, 9th, and 10th grade foundation courses are carefully curated to ensure students don't feel burdened, but empowered. We focus on building "Problem Solving Intuition" which is the key differentiator in JEE and NEET.
+              Our 8th, 9th, and 10th grade foundation courses are curated to empower students, not burden them. We focus on building "Problem Solving Intuition"—the key differentiator in competitive exams—by blending Kota's proven excellence with our unique Vedic approach.
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

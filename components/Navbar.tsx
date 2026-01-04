@@ -23,7 +23,7 @@ const Navbar: React.FC<NavbarProps> = ({ onNavigateHome }) => {
       <div className="container mx-auto px-6 flex justify-between items-center">
         <button onClick={onNavigateHome} className="flex items-center space-x-2 outline-none">
           <div className="w-10 h-10 bg-orange-600 rounded-lg flex items-center justify-center text-white font-bold text-xl">V</div>
-          <span className={`text-2xl font-serif font-bold text-slate-900`}>Neeraj</span>
+          <span className={`text-2xl font-serif font-bold text-slate-900`}>Vedic Expert PU College Shivamogga</span>
         </button>
 
         {/* Desktop Menu */}
@@ -37,13 +37,14 @@ const Navbar: React.FC<NavbarProps> = ({ onNavigateHome }) => {
               {item.label}
             </a>
           ))}
-          <a 
-            href="#contact" 
-            className="bg-orange-600 text-white px-6 py-2 rounded-full font-bold text-sm hover:bg-orange-700 transition-all shadow-lg hover:shadow-orange-200"
-          >
-            Enroll Now
-          </a>
-        </div>
+                    <a
+                      href="https://docs.google.com/forms/d/e/1FAIpQLSdpmnzDAzC_NhfJL01zUtDDFzI3bLOZSb1_rMv3ymya-zu7Ww/viewform"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-orange-600 text-white px-6 py-2 rounded-full font-bold text-sm hover:bg-orange-700 transition-all shadow-lg hover:shadow-orange-200"
+                    >
+                      Enroll Now
+                    </a>        </div>
 
         {/* Mobile Toggle */}
         <button 

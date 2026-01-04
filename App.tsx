@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Features from './components/Features';
+import Results from './components/Results';
 import Courses from './components/Courses';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -45,6 +46,7 @@ const App: React.FC = () => {
           <main>
             <div id="home"><Hero /></div>
             <div id="about"><About /></div>
+            <div id="results"><Results /></div>
             <div id="why"><Features /></div>
             <div id="courses">
               <Courses onSelectCourse={navigateToCourse} />
