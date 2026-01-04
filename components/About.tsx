@@ -12,7 +12,7 @@ const About: React.FC = () => {
             <div className="grid grid-cols-2 gap-4">
               <img 
                 src={boyBook} 
-                className="rounded-2xl shadow-lg w-full h-full object-cover aspect-[4/5]" 
+                className="rounded-2xl shadow-lg w-full h-full object-cover object-right aspect-[4/5]" 
                 alt="Focused Learning" 
               />
               <img 

@@ -1,5 +1,9 @@
 
 import { Course, Testimonial, NavItem } from './types';
+import eighth from './images/8th.png';
+import ninth from './images/9th.png';
+import tenth from './images/10th.png';
+
 
 export const NAV_ITEMS: NavItem[] = [
   { label: 'Home', href: '#home' },
@@ -25,7 +29,7 @@ export const COURSES: Course[] = [
       'Comprehensive Study Materials & Digital Resources'
     ],
     duration: '250 Hours of Expert Instruction',
-    image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=800',
+    image: eighth,
     batches: ['March 26, 2026 onwards', 'April 16, 2026 onwards', 'June 11, 2026 onwards'],
     eligibility: [
       'Grade 8 students with a passion for STEM subjects',
@@ -58,7 +62,7 @@ export const COURSES: Course[] = [
       'Direct interaction with IITian Faculty'
     ],
     duration: '300 Hours of Intensive Learning',
-    image: 'https://images.unsplash.com/photo-1519337265831-281ec6cc8514?auto=format&fit=crop&q=80&w=800',
+    image: ninth,
     batches: ['April 05, 2026', 'May 10, 2026', 'June 20, 2026'],
     eligibility: [
       'Grade 9 students aiming for JEE/NEET',
@@ -86,7 +90,7 @@ export const COURSES: Course[] = [
       'Rank Improvement Modules'
     ],
     duration: '350 Hours Comprehensive Program',
-    image: 'https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&q=80&w=800',
+    image: tenth,
     batches: ['March 15, 2026', 'April 12, 2026', 'June 01, 2026'],
     eligibility: [
       'Grade 10 students aiming for Tier-1 Institutes',
