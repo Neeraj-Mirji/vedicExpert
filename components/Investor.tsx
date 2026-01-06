@@ -5,8 +5,8 @@ const Investor: React.FC = () => {
   return (
     <section className="py-24 bg-white">
       <div className="container mx-auto px-6 text-center">
-        <h2 className="text-3xl font-bold text-slate-900 mb-12">
-          An Investor's Perspective
+        <h2 className="text-lg font-bold text-orange-600 tracking-widest uppercase mb-4">
+          Our Managing Director's Perspective
         </h2>
         <div className="max-w-3xl mx-auto mt-12">
           <img 
@@ -18,7 +18,7 @@ const Investor: React.FC = () => {
             "My journey from Kundapura to the corporate boardrooms of Mangalore taught me that education is the ultimate equalizer. At Vedic Expert, we aren't just teaching subjects; we are nurturing curiosity and building the foundation for a brighter, more innovative Karnataka."
           </blockquote>
           <p className="text-lg font-semibold text-slate-900">— GopalKrishna Shetty</p>
-          <p className="text-md font-medium text-orange-600">Investor & Mentor</p>
+          <p className="text-md font-medium text-orange-600">Managing Director & Mentor</p>
         </div>
       </div>
     </section>
