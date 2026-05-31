@@ -30,7 +30,8 @@ export const COURSES: Course[] = [
     ],
     duration: '250 Hours of Expert Instruction',
     image: eighth,
-    batches: ['March 26, 2026 onwards', 'April 16, 2026 onwards', 'June 11, 2026 onwards'],
+    batches: ['March 15, 2026 onwards', 'April 15, 2026 onwards', 'June 15, 2026 onwards'],
+    SlotsRemaining: [0, 0, 30],
     eligibility: [
       'Grade 8 students with a passion for STEM subjects',
       'Students who have scored 75% or above in Mathematics and Science in their Board Exams'
@@ -63,7 +64,8 @@ export const COURSES: Course[] = [
     ],
     duration: '300 Hours of Intensive Learning',
     image: ninth,
-    batches: ['April 05, 2026', 'May 10, 2026', 'June 20, 2026'],
+    batches: ['April 15, 2026', 'May 15, 2026', 'June 15, 2026'],
+    SlotsRemaining: [0, 0, 30],
     eligibility: [
       'Grade 9 students aiming for JEE/NEET',
       'Minimum 80% in previous grade Math/Science'
@@ -91,7 +93,8 @@ export const COURSES: Course[] = [
     ],
     duration: '350 Hours Comprehensive Program',
     image: tenth,
-    batches: ['March 15, 2026', 'April 12, 2026', 'June 01, 2026'],
+    batches: ['March 15, 2026', 'April 15, 2026', 'June 15, 2026'],
+    SlotsRemaining: [0, 0, 30],
     eligibility: [
       'Grade 10 students aiming for Tier-1 Institutes',
       'Consistent academic performance in 9th grade'

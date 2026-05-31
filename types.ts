@@ -17,6 +17,7 @@ export interface Course {
   duration: string;
   image: string;
   batches: string[];
+  SlotsRemaining: number[];
   eligibility: string[];
   syllabus: Syllabus;
   learningOutcomes: string[];

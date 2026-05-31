@@ -208,26 +208,34 @@ const CourseDetailsPage: React.FC<CourseDetailsPageProps> = ({ course, onBack })
                   {course.batches.map((batch, i) => (
                     <div key={i} className="flex flex-col md:flex-row items-center justify-between p-10 bg-white border border-slate-100 rounded-[2.5rem] shadow-sm hover:shadow-xl hover:border-orange-200 transition-all group">
                       <div className="flex items-center mb-6 md:mb-0">
-                         <div className="w-16 h-16 bg-slate-900 text-white rounded-3xl flex items-center justify-center font-serif text-2xl mr-8 group-hover:bg-orange-600 transition-colors">
+                         <div className={`w-16 h-16 text-white rounded-3xl flex items-center justify-center font-serif text-2xl mr-8 transition-colors ${course.SlotsRemaining?.[i] === 0 ? 'bg-slate-300' : 'bg-slate-900 group-hover:bg-orange-600'}`}>
                            {i+1}
                          </div>
                          <div>
-                           <span className="text-xs font-bold text-orange-600 uppercase tracking-widest mb-1 block">Registration Open</span>
+                           <span className={`text-xs font-bold uppercase tracking-widest mb-1 block ${course.SlotsRemaining?.[i] === 0 ? 'text-slate-400' : 'text-orange-600'}`}>
+                             {course.SlotsRemaining?.[i] === 0 ? 'Registration Closed' : 'Registration Open'}
+                           </span>
                            <h4 className="text-2xl font-bold text-slate-900">{batch}</h4>
                          </div>
                       </div>
                       <div className="flex items-center space-x-8">
                          <div className="text-center md:text-left">
                            <p className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">Seats Remaining</p>
-                           <p className="text-lg font-bold text-slate-900">{15 + (i * 2)} Slots</p>
+                           <p className={`text-lg font-bold ${course.SlotsRemaining?.[i] === 0 ? 'text-red-600' : 'text-slate-900'}`}>
+                             {course.SlotsRemaining?.[i] === 0 ? 'Batch Full' : `${course.SlotsRemaining?.[i]} Slots`}
+                           </p>
                          </div>
                          <a
-                           href="https://docs.google.com/forms/d/e/1FAIpQLSdpmnzDAzC_NhfJL01zUtDDFzI3bLOZSb1_rMv3ymya-zu7Ww/viewform"
-                           target="_blank"
-                           rel="noopener noreferrer"
-                           className="bg-slate-900 text-white px-8 py-4 rounded-2xl font-bold hover:bg-orange-600 transition-all"
+                           href={course.SlotsRemaining?.[i] === 0 ? undefined : "https://docs.google.com/forms/d/e/1FAIpQLSdpmnzDAzC_NhfJL01zUtDDFzI3bLOZSb1_rMv3ymya-zu7Ww/viewform"}
+                           target={course.SlotsRemaining?.[i] === 0 ? undefined : "_blank"}
+                           rel={course.SlotsRemaining?.[i] === 0 ? undefined : "noopener noreferrer"}
+                           className={`w-48 text-center py-4 rounded-2xl font-bold transition-all ${
+                             course.SlotsRemaining?.[i] === 0 
+                               ? 'bg-slate-100 text-slate-400 cursor-not-allowed' 
+                               : 'bg-slate-900 text-white hover:bg-orange-600'
+                           }`}
                          >
-                           Select Batch
+                           {course.SlotsRemaining?.[i] === 0 ? 'Full' : 'Select Batch'}
                          </a>
                       </div>
                     </div>
